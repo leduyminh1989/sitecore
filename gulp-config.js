@@ -1,5 +1,5 @@
 module.exports = function () {
-  var instanceRoot = "C:\\websites\\Habitat.dev.local";
+    var instanceRoot = "$(Build.ArtifactStagingDirectory)";
   var config = {
     websiteRoot: instanceRoot + "\\Website",
     sitecoreLibraries: instanceRoot + "\\Website\\bin",
