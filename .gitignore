@@ -3,7 +3,6 @@ src/**/[Bb]in/
 specs/**/[Bb]in/
 .nuget/
 _ReSharper.*
-packages/
 artifacts/
 *.user
 *.cache
@@ -20,7 +19,6 @@ lib/System/*
 vars.user.cmd
 /.vs
 /target
-/node_modules
 temp/
 *.ncrunchproject
 *.ncrunchsolution
