@@ -1,5 +1,5 @@
 module.exports = function () {
-    var instanceRoot = "$(Build.ArtifactStagingDirectory)";
+  var instanceRoot = "";
   var config = {
     websiteRoot: instanceRoot + "\\Website",
     sitecoreLibraries: instanceRoot + "\\Website\\bin",
