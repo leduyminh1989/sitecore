@@ -1,5 +1,4 @@
 [Oo]bj/
-src/**/[Bb]in/
 specs/**/[Bb]in/
 .nuget/
 _ReSharper.*
@@ -24,3 +23,7 @@ temp/
 *.ncrunchsolution
 .vscode
 nCrunchTemp*.*
+src/**/[Bb]in/*.dll
+src/**/[Bb]in/*.xml
+src/**/[Bb]in/*.config
+src/**/[Bb]in/roslyn
